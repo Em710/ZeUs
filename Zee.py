@@ -76,14 +76,14 @@ def clear():
 def back():
 	login()
 
-ah="TRICKER-"
-imt="-M4786=="
-ak="ZAHID -"
+ah="Em-"
+imt="-ZeUs=="
+ak="EmZee404-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.ZeUs -cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.ZeUs -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -1291,10 +1291,10 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.ZeUs -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/rex-zahid/Zahid-old/blob/main/Old-approval.txt").text
+	r1=requests.get("https://github.com/Em710/ZeUs/blob/main/approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1307,25 +1307,25 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32mZAHID  Toll Free BUT You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m DO ENJOY   \033[1;37m")
+		print(" \033[1;32mZeUs  Tool Free But You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Do Enjoy   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
-		print(" Copy And Send Key To Admin FB Group ")
+		print(" Copy And Send Key To CEO's Whatsapp ")
 		print ("")
 		print (" Your Key : "+ak+ah+key1 )
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
-		gf = input(" Your gf Name : ")
+		gf = input(" Your Name : ")
 		print ("")
 		lol = input(" Your Your Email : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://facebook.com/groups/229633909558278/' + tks)
+		os.system('am start wa.me/+923040754271' + tks)
 		Subscraption()        
 Subscraption()
 
